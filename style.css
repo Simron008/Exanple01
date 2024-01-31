@@ -1,0 +1,141 @@
+/* Reset and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFF33;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    margin: 8px;
+    position: sticky;
+    top: 10px;
+    left: 100px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Main Content */
+.Main {
+    background-color: black;
+    color: lime;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Image Section */
+.Hello {
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+}
+
+.imgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF00FF;
+    color: black;
+    font-size: 10vw;
+    font-weight: bold;
+    padding: 10px;
+    mix-blend-mode: screen;
+}
+
+/* Details Section */
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.details .text {
+    font-size: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+/* Buttons Section */
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+.buttons input[type="button"] {
+    display: inline-block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: transform 0.3s;
+}
+
+.buttons input[type="button"]:hover {
+    transform: translateY(-6px);
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.Contact {
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+}
+
+.Shimroasher23 {
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+}
